@@ -56,3 +56,12 @@ const zucchine = [
     lunghezza: 10
   }
 ]
+
+// faccio un funzione somma
+function sum(p1, p2) {
+  return p1 + p2
+}
+
+const result =  sum(zucchine.peso)
+
+console.log(`Somma: ${result}`);
